@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/MyGolfStats_16778834397440/Driving
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1000,
-    width: 1200,
+    height: 1100,
+    width: 1400,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
